@@ -1,0 +1,11 @@
+.box__personagens__imagem img {
+  height: 280px;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .box__personagens__imagem img {
+    height: 8rem;
+    width: 6rem;
+  }
+}

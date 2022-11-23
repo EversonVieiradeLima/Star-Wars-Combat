@@ -1,0 +1,20 @@
+.box__personagens__opcao {
+   background-color: lightskyblue;
+   border-radius: 8px;
+   box-shadow: 10px 5px 5px #000;
+   cursor: pointer;
+   justify-content: center;
+   font-weight: bold;
+   height: 30px;
+   margin-bottom: 10px;
+   text-align: center;
+   width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+   .box__personagens__opcao {
+      font-size: 20px;
+      height: 3.5rem;
+      width: 11.5rem;
+   }
+}

@@ -1,0 +1,21 @@
+.botao {
+   background-color: lightskyblue;
+   border-radius: 8px;
+   box-shadow: 10px 5px 5px #000;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+   height: 40px;
+   margin-right: 6rem;
+   padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+   .botao {
+      font-size: 25px;
+      height: 4rem;
+      margin-bottom: 2rem;
+      margin-right: 5rem;
+      width: 8rem;
+   }
+}

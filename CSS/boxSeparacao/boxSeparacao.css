@@ -1,0 +1,7 @@
+.boxSeparacao {
+   align-items: center;
+   display: flex;
+   height: 25rem;
+   justify-content: center;
+   width: 100%;
+ }

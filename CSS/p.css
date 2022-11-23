@@ -1,0 +1,13 @@
+p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em black
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 21px;
+  }
+}

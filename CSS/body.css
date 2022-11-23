@@ -1,0 +1,11 @@
+body {
+  background: url(https://cdn.pixabay.com/photo/2016/07/29/19/15/darth-maul-1555343_960_720.png) no-repeat center / cover;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+}

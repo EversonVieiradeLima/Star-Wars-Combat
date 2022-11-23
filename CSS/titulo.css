@@ -1,0 +1,10 @@
+.titulo {
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .titulo {
+    margin-top: 5rem;
+  }
+}

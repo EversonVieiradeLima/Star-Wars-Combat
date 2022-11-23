@@ -1,0 +1,9 @@
+.boxSeparacao__sabresDeLuz {
+  width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  .boxSeparacao__sabresDeLuz {
+    width: 5rem;
+  }
+}

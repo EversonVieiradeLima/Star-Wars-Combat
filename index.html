@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Requisito de meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/reset.css">
+    <!-- CND bootstrap.min.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="CSS/body.css" />
+    <link rel="stylesheet" href="CSS/botao/botao-reiniciar.css">
+    <link rel="stylesheet" href="CSS/botao/botao.css">
+    <link rel="stylesheet" href="CSS/box/box-personagem-imagem.css">
+    <link rel="stylesheet" href="CSS/box/box-personagem-opcao.css">
+    <link rel="stylesheet" href="CSS/box/box.css">
+    <link rel="stylesheet" href="CSS/boxSeparacao/boxSeparacao-sabreDeLuz.css">
+    <link rel="stylesheet" href="CSS/boxSeparacao/boxSeparacao.css">
+    <link rel="stylesheet" href="CSS/container.css">
+    <link rel="stylesheet" href="CSS/p.css">
+    <link rel="stylesheet" href="CSS/resultadoVitoria.css">
+    <link rel="stylesheet" href="CSS/titulo.css">
+    <!-- CND jQuery.min.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- CND bootstrap.bundle.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="JS/script.js" defer></script>
+    <title>Star Wars Combat</title>
+  </head>
+  <body >
+
+    <h1 class="titulo">Star Wars Combat</h1>
+
+    <div class="container">
+
+      <div class="box">
+        <p>Jedi:</p>
+        <div class="box__personagens">
+          <select id="selectJedi" class="box__personagens__opcao" ></select>
+          <span id="avatarJedi" class="box__personagens__imagem"></span>
+          <p id="dadosJedi"></p>
+        </div>
+      </div>
+
+      <div class="boxSeparacao">
+        <img class="boxSeparacao__sabresDeLuz" src="https://cdn-icons-png.flaticon.com/512/922/922809.png" />
+      </div>
+
+      <div class="box">
+        <p>Sith:</p>
+        <div class="box__personagens">
+          <select id="selectSith" class="box__personagens__opcao"></select>
+          <span id="avatarSith" class="box__personagens__imagem"></span>
+          <p id="dadosSith"></p>
+        </div>
+      </div>
+
+    </div>
+
+    <button id="lutar" class="botao">Lutar</button>
+    <button id="reiniciar" class="botao" disabled>Reiniciar</button>
+
+    <p id="resultadoVitoria"></p>
+
+  </body>
+</html>
